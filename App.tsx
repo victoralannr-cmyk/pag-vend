@@ -1,12 +1,12 @@
 
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import FallingLeaves from './components/FallingLeaves';
-import Carousel from './components/Carousel';
-import Testimonials from './components/Testimonials';
-import Features from './components/Features';
-import Pricing from './components/Pricing';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import FallingLeaves from './components/FallingLeaves.tsx';
+import Carousel from './components/Carousel.tsx';
+import Testimonials from './components/Testimonials.tsx';
+import Features from './components/Features.tsx';
+import Pricing from './components/Pricing.tsx';
 
 const App: React.FC = () => {
   return (
