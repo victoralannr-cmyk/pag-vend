@@ -7,6 +7,7 @@ import Carousel from './components/Carousel.tsx';
 import Testimonials from './components/Testimonials.tsx';
 import Features from './components/Features.tsx';
 import Pricing from './components/Pricing.tsx';
+import FAQ from './components/FAQ.tsx';
 
 const App: React.FC = () => {
   return (
@@ -33,6 +34,9 @@ const App: React.FC = () => {
 
           {/* Fourth section: Pricing */}
           <Pricing />
+
+          {/* Fifth section: FAQ */}
+          <FAQ />
         </main>
         
         {/* Simple Footer */}
