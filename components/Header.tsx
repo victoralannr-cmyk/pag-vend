@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { CHECKOUT_URL } from '../constants.ts';
 
 const Header: React.FC = () => {
   return (
@@ -15,7 +15,9 @@ const Header: React.FC = () => {
         </div>
         
         <a 
-          href="https://www.ggcheckout.com/checkout/v5/BLqGpd7oJKooVkDooBo1"
+          href={CHECKOUT_URL}
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-white text-black font-bold px-6 py-2.5 rounded-full hover:bg-red-600 hover:text-white transition-all duration-300 transform hover:scale-105 active:scale-95 text-sm md:text-base inline-block"
         >
           ATIVE AGORA

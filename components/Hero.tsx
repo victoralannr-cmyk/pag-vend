@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { CHECKOUT_URL } from '../constants.ts';
 
 const Hero: React.FC = () => {
   return (
@@ -19,7 +19,9 @@ const Hero: React.FC = () => {
 
           <div className="w-full sm:w-auto space-y-4">
             <a 
-              href="https://www.ggcheckout.com/checkout/v5/BLqGpd7oJKooVkDooBo1"
+              href={CHECKOUT_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full sm:w-auto inline-block bg-gradient-to-r from-red-700 via-red-600 to-orange-600 hover:from-red-600 hover:to-orange-500 text-white font-extrabold text-xl px-10 py-5 rounded-2xl shadow-[0_10px_40px_rgba(220,38,38,0.3)] transition-all duration-300 transform hover:-translate-y-1 active:scale-95 uppercase tracking-wide text-center"
             >
               ATIVE SUA ROTINA

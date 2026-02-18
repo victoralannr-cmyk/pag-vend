@@ -1,5 +1,5 @@
-
 import React, { useState } from 'react';
+import { CHECKOUT_URL } from '../constants.ts';
 
 const Pricing: React.FC = () => {
   const [billingCycle, setBillingCycle] = useState<'monthly' | 'yearly'>('monthly');
@@ -62,7 +62,9 @@ const Pricing: React.FC = () => {
 
           {/* CTA Button */}
           <a 
-            href="https://www.ggcheckout.com/checkout/v5/BLqGpd7oJKooVkDooBo1"
+            href={CHECKOUT_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full bg-gradient-to-r from-red-700 via-orange-500 via-yellow-500 to-red-700 animate-gradient-text text-white font-black text-xl py-6 rounded-2xl shadow-[0_15px_45px_rgba(220,38,38,0.5)] hover:shadow-[0_20px_60px_rgba(220,38,38,0.7)] hover:scale-[1.03] transition-all duration-300 uppercase italic tracking-wider flex items-center justify-center gap-3 mb-10 group"
           >
             <span className="flex items-center gap-3 group-hover:translate-x-1 transition-transform">
