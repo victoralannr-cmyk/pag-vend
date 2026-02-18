@@ -18,9 +18,12 @@ const Hero: React.FC = () => {
           </div>
 
           <div className="w-full sm:w-auto space-y-4">
-            <button className="w-full sm:w-auto bg-gradient-to-r from-red-700 via-red-600 to-orange-600 hover:from-red-600 hover:to-orange-500 text-white font-extrabold text-xl px-10 py-5 rounded-2xl shadow-[0_10px_40px_rgba(220,38,38,0.3)] transition-all duration-300 transform hover:-translate-y-1 active:scale-95 uppercase tracking-wide">
+            <a 
+              href="https://www.ggcheckout.com/checkout/v5/BLqGpd7oJKooVkDooBo1"
+              className="w-full sm:w-auto inline-block bg-gradient-to-r from-red-700 via-red-600 to-orange-600 hover:from-red-600 hover:to-orange-500 text-white font-extrabold text-xl px-10 py-5 rounded-2xl shadow-[0_10px_40px_rgba(220,38,38,0.3)] transition-all duration-300 transform hover:-translate-y-1 active:scale-95 uppercase tracking-wide text-center"
+            >
               ATIVE SUA ROTINA
-            </button>
+            </a>
             <p className="text-gray-500 text-sm font-medium flex items-center justify-center sm:justify-start gap-2">
               <span className="inline-block w-1.5 h-1.5 rounded-full bg-gradient-to-r from-red-600 to-orange-500"></span>
               sem cartão para testar • Cancele quando quiser

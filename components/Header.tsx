@@ -14,9 +14,12 @@ const Header: React.FC = () => {
           <span className="text-xl font-extrabold tracking-tighter">FANTE IA</span>
         </div>
         
-        <button className="bg-white text-black font-bold px-6 py-2.5 rounded-full hover:bg-red-600 hover:text-white transition-all duration-300 transform hover:scale-105 active:scale-95 text-sm md:text-base">
+        <a 
+          href="https://www.ggcheckout.com/checkout/v5/BLqGpd7oJKooVkDooBo1"
+          className="bg-white text-black font-bold px-6 py-2.5 rounded-full hover:bg-red-600 hover:text-white transition-all duration-300 transform hover:scale-105 active:scale-95 text-sm md:text-base inline-block"
+        >
           ATIVE AGORA
-        </button>
+        </a>
       </nav>
     </header>
   );

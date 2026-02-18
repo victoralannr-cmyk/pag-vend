@@ -61,12 +61,15 @@ const Pricing: React.FC = () => {
           </div>
 
           {/* CTA Button */}
-          <button className="w-full bg-gradient-to-r from-red-700 via-orange-500 via-yellow-500 to-red-700 animate-gradient-text text-white font-black text-xl py-6 rounded-2xl shadow-[0_15px_45px_rgba(220,38,38,0.5)] hover:shadow-[0_20px_60px_rgba(220,38,38,0.7)] hover:scale-[1.03] transition-all duration-300 uppercase italic tracking-wider flex items-center justify-center gap-3 mb-10 group">
+          <a 
+            href="https://www.ggcheckout.com/checkout/v5/BLqGpd7oJKooVkDooBo1"
+            className="w-full bg-gradient-to-r from-red-700 via-orange-500 via-yellow-500 to-red-700 animate-gradient-text text-white font-black text-xl py-6 rounded-2xl shadow-[0_15px_45px_rgba(220,38,38,0.5)] hover:shadow-[0_20px_60px_rgba(220,38,38,0.7)] hover:scale-[1.03] transition-all duration-300 uppercase italic tracking-wider flex items-center justify-center gap-3 mb-10 group"
+          >
             <span className="flex items-center gap-3 group-hover:translate-x-1 transition-transform">
               GARANTIR MEU ACESSO
               <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="animate-pulse"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
             </span>
-          </button>
+          </a>
 
           {/* Trust Badges */}
           <div className="grid grid-cols-3 gap-4 w-full mb-12">
